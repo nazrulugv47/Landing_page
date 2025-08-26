@@ -1,21 +1,21 @@
 /* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
-body { line-height: 1.6; background: #f5f5f5; color: #333; }
+body { line-height: 1.6; background: #004370; color: #000000; }
 
 /* Header */
 header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: #1e1e2f; color: #fff; position: sticky; top: 0; z-index: 1000; }
 header .logo { font-size: 1.5rem; font-weight: bold; }
 header nav ul { display: flex; list-style: none; gap: 20px; align-items: center; }
-header nav ul li a, header nav ul li button { color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 5px; transition: 0.3s; border: none; background: none; cursor: pointer; }
-header nav ul li a:hover, header nav ul li button:hover { background: #ff5722; }
+header nav ul li a, header nav ul li button { color: #ffffff; text-decoration: none; padding: 8px 16px; border-radius: 5px; transition: 0.3s; border: none; background: none; cursor: pointer; }
+header nav ul li a:hover, header nav ul li button:hover { background: #da21d0; }
 
 /* Hero */
-.hero { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: 80px 40px; background: #282844; color: #fff; }
+.hero { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: 80px 40px; background: #050553; color: #fff; }
 .hero-content { flex: 1; min-width: 300px; }
 .hero-content h1 { font-size: 2.5rem; margin-bottom: 20px; }
 .hero-content p { font-size: 1.2rem; margin-bottom: 30px; }
-.hero-content button { padding: 12px 30px; font-size: 1rem; border: none; border-radius: 5px; background: #ff5722; color: #fff; cursor: pointer; transition: 0.3s; }
-.hero-content button:hover { background: #e64a19; }
+.hero-content button { padding: 12px 30px; font-size: 1rem; border: none; border-radius: 5px; background: #ad057b; color: #fff; cursor: pointer; transition: 0.3s; }
+.hero-content button:hover { background: #66cfff; }
 .hero-image img { max-width: 500px; width: 100%; }
 
 /* Features */
@@ -42,14 +42,14 @@ header nav ul li a:hover, header nav ul li button:hover { background: #ff5722; }
 .contact h2 { margin-bottom: 20px; font-size: 2rem; }
 .contact form { display: flex; flex-direction: column; gap: 20px; max-width: 400px; margin: 0 auto; }
 .contact input, .contact textarea { padding: 12px; border-radius: 5px; border: none; }
-.contact button { padding: 12px; border-radius: 5px; border: none; background: #ff5722; color: #fff; cursor: pointer; transition: 0.3s; }
-.contact button:hover { background: #e64a19; }
+.contact button { padding: 12px; border-radius: 5px; border: none; background: #083d20; color: #fff; cursor: pointer; transition: 0.3s; }
+.contact button:hover { background: #6a48c7; }
 
 /* Footer */
 footer { background: #1e1e2f; color: #fff; text-align: center; padding: 40px; }
 footer .socials { margin-top: 15px; }
 footer .socials a { margin: 0 10px; color: #fff; text-decoration: none; transition: 0.3s; }
-footer .socials a:hover { color: #ff5722; }
+footer .socials a:hover { color: #22ffff; }
 
 /* Responsive */
 @media (max-width: 900px) {
